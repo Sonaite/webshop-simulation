@@ -23,7 +23,7 @@
                 <img src="images/logo.png" alt="logo" width="125px">
             </div>
             <nav>
-                <ul>
+                <ul id="MenuItems">
                     <li><a href="">Home</a></li>
                     <li><a href="">Products</a></li>
                     <li><a href="">About</a></li>
@@ -33,6 +33,7 @@
             </nav>
 
             <img src="images/cart.png" alt="cart" width="30px" height="30px">
+            <img src="images/menu.png" alt="cart" class="menu-icon" onclick="menutoggle()">
         </div>
 
         <div class="row">
@@ -259,6 +260,136 @@
   </div>
 
   <!-----testimonials------>
+  <div class="testimonial">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                 <i class="fa fa-quote-left"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, exercitationem ipsam nisi eum, ratione veritatis pariatur quos iste sequi laboriosam illo natus dicta rerum inventore repudiandae nihil fugiat provident rem.</p>
+
+                                <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star-o" ></i>
+                        </div>
+                    <img src="images/user-1.png" >
+                    <h3>Sean Parker</h3>
+            </div>
+
+             <div class="col-3">
+                 <i class="fa fa-quote-left"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, exercitationem ipsam nisi eum, ratione veritatis pariatur quos iste sequi laboriosam illo natus dicta rerum inventore repudiandae nihil fugiat provident rem.</p>
+
+                                <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star-o" ></i>
+                        </div>
+                    <img src="images/user-2.png" >
+                    <h3>Mike Smith</h3>
+            </div>
+
+             <div class="col-3">
+                 <i class="fa fa-quote-left"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, exercitationem ipsam nisi eum, ratione veritatis pariatur quos iste sequi laboriosam illo natus dicta rerum inventore repudiandae nihil fugiat provident rem.</p>
+
+                                <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star-o" ></i>
+                        </div>
+                    <img src="images/user-3.png" >
+                    <h3>Mabel Joe</h3>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <!-------Brandes--------->
+  <div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <img src="images/logo-godrej.png" >
+            </div>
+               <div class="col-5">
+                <img src="images/logo-oppo.png" >
+            </div>
+               <div class="col-5">
+                <img src="images/logo-coca-cola.png" >
+            </div>
+               <div class="col-5">
+                <img src="images/logo-paypal.png" >
+            </div>
+               <div class="col-5">
+                <img src="images/logo-philips.png" >
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <!----footer------>
+  <div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                 <h3>Baixe nosso aplicativo</h3>
+                 <p>Baixe o aplicativo para cululares android e iOs</p>
+                 <div class="app-logo">
+                    <img src="images/play-store.png">
+                     <img src="images/app-store.png">
+                 </div>
+            </div>
+
+              <div class="footer-col-2">
+                <img src="images/logo-white.png" >
+                 <p>Nosso propósito é torna o prazer e os benefícios dos esportes acessíveis a muitos de forma sustentavél.</p>
+            </div>
+
+              <div class="footer-col-3">
+                 <h3>Links úteis</h3>
+                 <ul>
+                    <li>Cupons</li>
+                    <li>Postagem do blog</li>
+                    <li>Política de devolução</li>
+                    <li>junte-se ao Afiliado</li>
+                 </ul>
+            </div>
+
+             <div class="footer-col-4">
+                 <h3>Siga-nos</h3>
+                 <ul>
+                    <li>facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>YouTube</li>
+                 </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="Copyright">Copyright 2020 - Easy Tutorials</p>
+    </div>
+  </div>
+  <!-------------------js fo toggle menu-------------------->
+  <script>
+      var MenuItems = document.getElementById("MenuItems");
+
+      MenuItems.style.maxHeight = "0px";
+
+      function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px"){
+              MenuItems.style.maxHeight = "200px";
+        }else{
+              MenuItems.style.maxHeight = "0px";
+        }
+      }
+  </script>
     
 </body>
 </html>
