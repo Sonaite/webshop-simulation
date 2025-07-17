@@ -1,2 +1,4 @@
 # webshop-simulation
-webshop simulation teste
+webshop simulation 
+
+![preview do site](images/preview.png)
