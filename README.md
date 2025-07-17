@@ -1,4 +1,5 @@
 # webshop-simulation
 webshop simulation 
 
-![preview do site](images/preview.png)
+![preview do site](images/prev.png)
+
