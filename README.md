@@ -1,4 +1,5 @@
-#Ecommerce website desing 
+# Ecommerce website desing 
+
 Projeto criado para praticar HTML, CSS e JavaScript.  
 Inclui layout responsivo e interações com JavaScript puro.
 
