@@ -1,13 +1,7 @@
 # Ecommerce website desing 
 
-Projeto criado para praticar HTML, CSS e JavaScript.  
-Inclui layout responsivo e interações com JavaScript puro.
-
-**Tecnologias:**  
-- HTML  
-- CSS  
-- JavaScript
-
+Project created for practicing HTML, CSS, and JavaScript.
+Includes responsive layout and interactions with pure JavaScript.
 
 ![preview do site](images/prev.png)
 https://sonaite.github.io/webshop-simulation/
